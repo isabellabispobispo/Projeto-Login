@@ -23,18 +23,19 @@ section#login {
     position: absolute;
     top: 50%;
     left: 50%;
-    transform: translate(-50%, -50%);
-    overflow: hiden;
-
+    overflow: hidden;
+   
 
     background-color: #DFDDD1;
     width: 250px;
     height: 515px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.397);
-
+   
     transition: width 1s, height 1s;
     transition-timing-function: ease;
+
+     transform: translate(-50%, -50%);
 }
 
 section#login > div#imagem {
@@ -43,13 +44,12 @@ section#login > div#imagem {
     background-position: 9% 27%;
     background-size: 254%;
     height: 200px;
-    border-radius: 20px 20px 0 0;
-   
 }
 
 section#login > div#formulario {
     display: block;
     padding: 10px;
+    
 
 }
 
@@ -61,6 +61,7 @@ section#login > div#formulario {
 
 div#formulario > p {
     font-size: 0.8em;
+    text-align: center;
 }
 
 form > input[type=submit] {
@@ -103,6 +104,7 @@ form > div.campo {
     background-color: #bdcaa7;
     height: 40px;
     border-radius: 5px;
+    border: 2px solid #bdcaa7;
     margin: 10px 0px 15px 0px;
 }
 
@@ -110,6 +112,27 @@ div.campo > label {
     display: none;
 }
 
-#bemvindo {
-    text-align: center;
+div.campo > span {
+    color: white;
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
 }
+
+div.campo > input {
+    background-color: #ffffff;
+    font-size: 1em;
+    height: 90%;
+    width: calc(100% - 50px);
+    border: none;
+    border-radius: 5px;
+    transform: translateY(-12px);
+}
+
+
+#termos {
+    color: rgb(0, 0, 0);
+    font-style: italic;
+}
+/* div.campo > input:focus-within {
+} */

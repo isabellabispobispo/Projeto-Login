@@ -12,16 +12,20 @@ grandes telas: acima de 1200px */
 @media screen and (min-width: 768px) and (max-width:992px){
     body {
         background-image: linear-gradient(to top, #799852, #9FB877 );
+        
     }
     
     section#login {
-        width: 90vw;
+        width: 700px;
+        height: 300px;
+        overflow: hidden;
     }
 
     section#login > div#imagem {
         float: left;
         width: 30%;
         height: 100%;
+        
     }
 
     section#login > div#formulario {
@@ -29,6 +33,9 @@ grandes telas: acima de 1200px */
         width: 70%;
     }
     
+    #bemvindo {
+        text-align: center;
+    }
 }
 
 @media screen and (min-width: 992px)  {
@@ -44,7 +51,7 @@ grandes telas: acima de 1200px */
         float: left;
         width: 50%;
         height: 100%;
-        border-radius: 20px 0 0 20px;
+        overflow: hidden;
     }
 
     section#login > div#formulario { 
@@ -57,6 +64,7 @@ grandes telas: acima de 1200px */
     }
     div#formulario > p {
     font-size: 1.2em;
+    margin: 15px 0px;
 }
 
 form > input[type=submit] {
