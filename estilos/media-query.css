@@ -59,4 +59,14 @@ grandes telas: acima de 1200px */
     font-size: 1.2em;
 }
 
+form > input[type=submit] {
+    height: 35px;
+}
+
+form > a.botao {
+    height: 35px;
+    margin-top: 10px;
+    padding: 4px;
+}
+
 }
